@@ -12,4 +12,4 @@ class TodoSerializer(serializers.ModelSerializer):
 class ImageUploadSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = ImageUpload
-        fields = ('title', 'image')
+        fields = '__all__'
