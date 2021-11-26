@@ -24,6 +24,16 @@ To build the app, download Django from https://www.djangoproject.com/download/
 Todo requires [Django](https://www.djangoproject.com/download/) to run.
 Todo requires [Django REST](https://www.django-rest-framework.org) to run.
 
+Create a virtual environment
+To create a virtual environment, you must specify a path. For example to create one in the local directory called ‘mypython’, type the following:
+```sh
+virtualenv mypython
+```
+Activate the python environment
+```sh
+source mypython/bin/activate
+```
+
 Install the dependencies
 ```sh
 pip install Django
